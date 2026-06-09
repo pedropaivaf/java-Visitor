@@ -10,14 +10,6 @@ Uma farmácia vende três tipos de produto: Medicamento (isento de imposto), Cos
 
 **Visitor** — a interface `CalculadorFiscal` define uma operação para cada tipo de produto. A classe `ProdutoVisitor` implementa o cálculo específico por categoria. Cada produto aceita o visitante e delega a chamada correta (`calcularMedicamento`, `calcularCosmetico`, `calcularSuplemento`), permitindo adicionar novos cálculos sem tocar nos produtos.
 
-## Como rodar
-
-```bash
-cd java-Visitor
-mvn test
-```
-
-7 testes passando.
 
 ## Diagrama de classes
 
